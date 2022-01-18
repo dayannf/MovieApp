@@ -1,0 +1,103 @@
+*
+{
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #320736;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+opacity: 0.5;
+}
+
+body {
+  background-image: url(../img/list-movie/sampul/fairy-sampul.png );
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: cover;
+  position: absolute;
+  font-family: Arial;
+}
+
+.heading1 {
+  background-color: #320736;
+  margin-top: 30%;
+  font-size: 40px;
+  color: #fff;
+  max-width: fit-content;
+  margin-left: 550px;
+}
+
+.sinopsis {
+  color: #320736;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 400px;
+}
+
+.desc {
+  margin-left: 50px;
+}
+
+.tag-vid {
+  color: #320736;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+iframe {
+  margin-left: 50px;
+}
+
+#film-lain {
+  padding-left: 30px;
+  color: #320736;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+div.gallery img {
+  display: flex;
+  float: left;
+  margin: 10px 10px 20px 10px;
+  top: 100px;
+}
+
+div.gallery img:hover {
+  box-shadow: 10px 10px 8px #888888;
+  transition: 0, 8s;
+  transform: translateY(-2%);
+}
+
+.copyright {
+  background-color: #320736;
+  margin: 80px 0px 0px 0px;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+  margin-top: 400px;
+}
